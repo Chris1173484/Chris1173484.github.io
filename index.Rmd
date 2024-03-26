@@ -9,12 +9,19 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Chris Stringham
+## The final Website
+
 
 This is some cheeks
 
-
 ```{r cars}
 summary(cars)
+```
+
+
+
+```{r iris}
+summary(iris)
 ```
 
 ## Including Plots
@@ -24,5 +31,6 @@ You can also embed plots, for example:
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
+
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
