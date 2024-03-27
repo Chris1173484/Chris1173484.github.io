@@ -1,15 +1,18 @@
 ---
 title: "Welcome to my Website!"
-output:
-  html_document:
-    theme: united
-    highlight: tango
+author: "Chris Stringham"
+date: "`r Sys.Date()`"
+output: 
+  prettydoc::html_pretty:
+    theme: hpstr
+    toc: yes
 runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 
+library(prettydoc)
 library(shiny)
 library(tidyverse)
 ```
