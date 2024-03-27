@@ -1,36 +1,42 @@
 ---
-title: "My Website"
-output: html_document
-date: "2024-03-26"
+title: "Welcome to my Website!"
+output:
+  html_document:
+    theme: united
+    highlight: tango
+runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-```
 
-## Chris Stringham
-## The final Website
-
-
-This is some cheeks
-
-```{r cars}
-summary(cars)
+library(shiny)
+library(tidyverse)
 ```
 
 
 
-```{r iris}
-summary(iris)
+```{r,echo=FALSE}
+navbarPage("Welcome",
+           tabPanel("Home", "Welcome to my website!"),
+           
+           
+           tabPanel("About Me",fluidRow(column(width=4,tags$img(src="IMG_3840.jpg",width="100%")),
+ column(width=8,"Welcome! I'm Chris Stringham, and it's a pleasure to have you exploring my website. At 24 years old, I'm from the sunny shores of Simi Valley, California. I am currently living in  Provo, as I pursue my Bachelor's degree in Biology at Utah Valley University, set to graduate in May 2024.
+I'm driven by a passion for dentistry, with dreams of becoming an orthodontist.
+Outside academics, you'll often find me surfing, painting, or reading.
+My current adventure is set on moving to Kauai after the summer, where I will work as a dental assistant and part-time lifeguard."),    
+
+column(width=6,tags$img(src="IMG_6510.jpg")),
+column(width=6, "In a family of 5, I sit as the middle child with my older brother Scott who lives in Philadelphia, and a younger brother Jack who lives in American Fork. We are also accompanied by an Australian Shepard named Maggie and a cat named Puurfessor Chaos.
+"))),
+           tabPanel("Resume"),
+           tabPanel("Project"))
 ```
 
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
 
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+
