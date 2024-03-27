@@ -22,7 +22,6 @@ library(tidyverse)
 navbarPage("Welcome",
           tabPanel("Home","Contact Info:", style = "font-size: 40px;",
          fluidRow(column(width = 4,HTML("<p style='font-size: 20px;'>Christopher Stringham</p>")),
-                  column(width = 4,HTML("<p style='font-size: 20px;'>Bachelors in Biology May 2024</p>")),
                   column(width = 4,HTML("<p style='font-size: 20px;'>800 W University Parkway</p>")),
                   column(width = 4,HTML("<p style='font-size: 20px;'><a href='mailto:cstringham@rocketmail.com'>cstringham@rocketmail.com</a></p>")))),
 
