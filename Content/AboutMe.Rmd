@@ -11,5 +11,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Welcome | [Home](ContactInfo.html)| [About Me]()| [Resume]()| [Project]()
+# Welcome | [Home](ContactInfo.html)| [About Me](AboutMe.html)| [Resume]()| [Project]()
 
+#### Welcome! I'm Chris Stringham, and it's a pleasure to have you exploring my website. At 24 years old, I'm from the sunny shores of Simi Valley, California. I am currently living in Provo, as I pursue my Bachelor's degree in Biology at Utah Valley University, set to graduate in May 2024. I'm driven by a passion for dentistry, with dreams of becoming an orthodontist. Outside academics, you'll often find me surfing, painting, or reading. My current adventure is set on moving to Kauai after the summer, where I will work as a dental assistant and part-time lifeguard.
