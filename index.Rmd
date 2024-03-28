@@ -18,8 +18,9 @@ library(rmarkdown)
 ```
 
 
-# Welcome | [Home](Content/ContactInfo.html)| [About Me]()| [Resume]()| [Project]()
+# Welcome | [Home](ContactInfo.html)| [About Me]()| [Resume]()| [Project]()
 ![](Content/hawaii.jpg)
+
 
 
 

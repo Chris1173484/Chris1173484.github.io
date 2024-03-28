@@ -11,7 +11,7 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Welcome | [Home](Content/ContactInfo.html)| [About Me]()| [Resume]()| [Project]()
+# Welcome | [Home](ContactInfo.html)| [About Me]()| [Resume]()| [Project]()
 
 # Contact Info
 ## Chris Stringham
