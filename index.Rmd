@@ -5,8 +5,6 @@ date: "`r Sys.Date()`"
 output: 
   prettydoc::html_pretty:
     theme: darkly
-    toc: yes
-runtime: shiny
 ---
 
 ```{r setup, include=FALSE}
@@ -17,7 +15,7 @@ library(shiny)
 library(tidyverse)
 ```
 
-
+# HOME | [CONTACT]()
 ```{r,echo=FALSE,warning=FALSE}
 navbarPage("Welcome",
           tabPanel("Home","Contact Info:", style = "font-size: 40px;",
@@ -34,7 +32,7 @@ navbarPage("Welcome",
                       
                       
                       column(width = 6,tags$img(src = "IMG_6510.jpg", width = "100%", style = "max-width: 300px;"),style = "margin-top: 20px;"
-                      ),column(width = 6, 
+                    ),column(width = 6, 
                           "In a family of 5, I sit as the middle child with my older brother Scott who lives in Philadelphia, and a younger brother Jack who lives in American Fork. We are also accompanied by an Australian Shepard named Maggie and a cat named Puurfessor Chaos. Surrounded by my two best friends Gage and Joe",style="margin-top:40px")),
                     
                     fluidRow(column(width = 6,tags$img(src = "IMG_1386.jpg", width = "100%", style = "max-width:200px;"),style = "margin-top: 20px;"),
