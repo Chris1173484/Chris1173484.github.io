@@ -1,0 +1,15 @@
+---
+title: "Welcome to my Website!"
+author: "**Stringham-UVU**"
+date: "`r Sys.Date()`"
+output:
+    prettydoc::html_pretty:
+    theme: cayman
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Welcome | [Home](Content/ContactInfo.html)| [About Me]()| [Resume]()| [Project]()
+

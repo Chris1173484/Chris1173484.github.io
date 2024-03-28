@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = TRUE)
 # Contact Info
 ## Chris Stringham
 ## 800 W Parkway University
-## <a href="mailtocstringham@rocketmail.com">cstringham@rocketmail.com</a>
+## [Send me an Email](mailto:cstringham@rocketmail.com)
 ## [Instagram-Cuhhhrisss](https://www.instagram.com/cuhhhrisss)
 
 
