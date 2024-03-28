@@ -8,29 +8,15 @@ output:
     theme: darkly
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-
-library(prettydoc)
-library(tidyverse)
-library(blogdown)
-library(rmarkdown)
-
 ```
-
 # Welcome | [Home](Content/ContactInfo.html)| [About Me]()| [Resume]()| [Project]()
-```{r}
-
-```
 
 
-
-
-
-
-
-
-
+# Contact Info
+## Chris Stringham
+## 800 W Parkway University
+### [cstringham@rocketmail.com](<a href="mailto:cstringham@rocketmail.com">Send Email</a>)
 
 
