@@ -1,0 +1,13 @@
+---
+title: "Welcome to my Website!"
+author: "**Stringham-UVU**"
+date: "`r Sys.Date()`"
+output: 
+    prettydoc::html_pretty:
+    theme: cayman
+---
+
+# Welcome | [Home](ContactInfo.html)| [About Me](AboutMe.html)| [Resume](Resume.html)| [Project]()
+
+<img src="Images/Resume_1.jpg" alt="Resume1 Image" width="700">
+<img src="Images/Resume_2.jpg" alt="Resume2 Image" width="700">
