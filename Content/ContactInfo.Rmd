@@ -18,6 +18,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## 800 W Parkway University
 ## [Send me an Email](mailto:cstringham@rocketmail.com)
 ## [Instagram-Cuhhhrisss](https://www.instagram.com/cuhhhrisss)
+![](Content/ChrisMaggie.jpg)
 
 
 
