@@ -1,0 +1,79 @@
+---
+title: "Welcome to my Website!"
+author: "**Stringham-UVU**"
+date: "`r Sys.Date()`"
+output: 
+    prettydoc::html_pretty:
+    theme: cayman
+---
+
+
+```{r setup, include=FALSE,warning=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(prettydoc)
+library(tidyverse)
+library(blogdown)
+library(rmarkdown)
+library(readr)
+library(knitr)
+library(DT)
+```
+
+
+
+# Welcome | [Home](ContactInfo.html)| [About Me](AboutMe.html)| [Resume](Resume.html)| [Project](Project.html)
+
+# Tying together Sleep and Obesity?
+
+In this research project, my aim is to investigate the potential correlation between inadequate sleep duration, poor sleep quality, and obesity. To achieve this, I have gotten two data sets sourced from the same researcher, who initially sought to understand the sleep patterns and lifestyles prevalent in their area. America is in the top 10 for [obesity](https://data.worldobesity.org/rankings/). Along with more than 1/3 of Americans getting poor [sleep.](https://www.ncoa.org/adviser/sleep/sleep-statistics/#:~:text=More%20than%20a%20third%20of,38%25%20of%20the%20general%20population.)
+
+*Something to consider before diving in is these are not all the factors that are linked to obesity 
+
+Allow me to provide an overview of the available data.
+
+```{r,warnings=FALSE,echo=FALSE,include=FALSE}
+dat3 <- read_csv("new_dat3.csv")
+```
+
+```{r,echo=FALSE,warning=FALSE}
+datatable(dat3, options = list(scrollX = TRUE, scrollY = "300px"))
+```
+
+Heres a look at some graphs that show some comparisons.
+
+```{r,include=FALSE}
+plot1 <- ggplot(dat3, aes(x = Age, y = WeightKg, color=Trnprt,shape=Gender)) +
+  geom_point(alpha = 0.6,size=3) +
+  facet_wrap(~Trnprt)+
+  labs(title = "Whos doing What?",y="Weight in Kgl",color= "Mode of Transportation") +
+  theme_minimal()
+```
+
+In this plot I wanted to compare what mode of transportation was being used. We can see that most people prefer using an automobile over anything.With a huge porportion of that section being above 100Kgs.
+```{r,echo=FALSE}
+plot(plot1)
+```
+
+
+```{r,include=FALSE}
+plot2 <- ggplot(dat3,aes(x=Age,y=Sleep_duration,color=WeightTyp))+
+  geom_point()+
+  facet_wrap(~Gender)+
+  labs(title="Hours Slept vs Weight type",y="Hours Slept",color= "Weight Type")+
+  theme_minimal()
+
+```
+
+This plot shows how many hours of sleep people were getting and how it compared to what kind of weight type they were, overweight being about 100 Kgs. You can see that most of the overweight subjects are staying in the [recommended](https://www.cdc.gov/sleep/features/getting-enough-sleep.html) amount of sleep. But let's dive deeper.
+
+
+```{r,echo=FALSE}
+plot(plot2)
+```
+
+
+
+
+
+
