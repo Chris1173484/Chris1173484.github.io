@@ -1,7 +1,7 @@
 ---
 title: "Welcome to my Website!"
-author: "**Stringham-UVU**"
-date: "`r Sys.Date()`"
+author: "**Stringham**"
+date: "Utah Valley University"
 output:
     prettydoc::html_pretty:
     theme: cayman
