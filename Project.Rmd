@@ -21,15 +21,18 @@ library(knitr)
 library(DT)
 library(modelr)
 library(easystats)
+library(aRtsy)
+library(gifski)
 ```
 
 
 
-# Welcome | [Home](ContactInfo.html)| [About Me](AboutMe.html)| [Resume](Resume.html)| [Project](Project.html)
+# Welcome | [Home](ContactInfo.html)| [About Me](AboutMe.html)| [Resume](Resume.html)| [Project](Project.html)|[New skill](New.html)
 
 # Tying together Sleep and Adiposity, can Sleep Contribute to Adiposity?
 
  In this research project, I aim to investigate the potential correlation between having an inadequate amount of sleep and adiposity. To achieve this, I have gotten two data sets sourced from the same researcher, who initially sought to understand the sleep patterns and lifestyles prevalent in their area. America is in the top 10 for [obesity](https://data.worldobesity.org/rankings/). With more than 1/3 of Americans getting poor [sleep.](https://www.ncoa.org/adviser/sleep/sleep-statistics/#:~:text=More%20than%20a%20third%20of,38%25%20of%20the%20general%20population.) Along with poor eating habits and lifestyles, the simplest factor of sleep contributes to weight gain. 
+ 
 
 *Something to consider before diving in is these are not all the factors that are linked to obesity. 
 

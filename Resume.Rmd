@@ -7,7 +7,7 @@ output:
     theme: cayman
 ---
 
-# Welcome | [Home](ContactInfo.html)| [About Me](AboutMe.html)| [Resume](Resume.html)| [Project](Project.html)
+# Welcome | [Home](ContactInfo.html)| [About Me](AboutMe.html)| [Resume](Resume.html)| [Project](Project.html)|[New skill](New.html)
 
 <img src="Images/Resume_1.jpg" alt="Resume1 Image" width="700">
 <img src="Images/Resume_2.jpg" alt="Resume2 Image" width="700">

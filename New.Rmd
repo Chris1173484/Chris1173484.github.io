@@ -1,0 +1,36 @@
+---
+title: "Welcome to my Website!"
+author: "**Stringham**"
+date: "Utah Valley University"
+output: 
+    prettydoc::html_pretty:
+    theme: cayman
+---
+
+
+```{r,include=FALSE,warning=FALSE}
+library(aRtsy)
+library(gifski)
+library(ggplot2)
+```
+
+# Welcome | [Home](ContactInfo.html)| [About Me](AboutMe.html)| [Resume](Resume.html)| [Project](Project.html)|[New skill](New.html)
+
+```{r,include=FALSE}
+set.seed(2)
+flame1 <- canvas_flame(colors=colorPalette("dark2"))
+```
+![](Images/flame1.png)
+
+```{r,include=FALSE}
+set.seed(2)
+random2 <- canvas_recaman(colors = colorPalette("random",n=10))
+```
+![](Images/Random2.png)
+
+```{r,include=FALSE}
+set.seed(2)
+smoke3 <- canvas_phyllotaxis(colors = colorPalette("tuscany1"))
+```
+![](Images/smoke3.png)
+
