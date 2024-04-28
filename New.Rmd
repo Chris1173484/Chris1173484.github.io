@@ -16,6 +16,8 @@ library(ggplot2)
 
 # Welcome | [Home](ContactInfo.html)| [About Me](AboutMe.html)| [Resume](Resume.html)| [Project](Project.html)|[New skill](New.html)
 
+[Cool link showing how all of this gets done](https://flam3.com/flame_draves.pdf)
+
 ```{r,include=FALSE}
 set.seed(2)
 flame1 <- canvas_flame(colors=colorPalette("dark2"))
