@@ -31,7 +31,7 @@ library(gifski)
 
 # Tying together Sleep and Adiposity, can Sleep Contribute to Adiposity?
 
- In this research project, I aim to investigate the potential correlation between having an inadequate amount of sleep and adiposity. To achieve this, I have gotten two data sets sourced from the same researcher, who initially sought to understand the sleep patterns and lifestyles prevalent in their area. America is in the top 10 for [obesity](https://data.worldobesity.org/rankings/). With more than 1/3 of Americans getting poor [sleep.](https://www.ncoa.org/adviser/sleep/sleep-statistics/#:~:text=More%20than%20a%20third%20of,38%25%20of%20the%20general%20population.) Along with poor eating habits and lifestyles, the simplest factor of sleep contributes to weight gain. 
+ In this research project, I aim to investigate the potential correlation between having an inadequate amount of sleep and adiposity. To achieve this, I have gotten two data sets sourced from the same researcher, who initially sought to understand the sleep patterns and lifestyles prevalent in their area. America is in the top 10 for [obesity](https://data.worldobesity.org/rankings/). With more than 1/3 of Americans getting poor [sleep.](https://www.ncoa.org/adviser/sleep/sleep-statistics/#:~:text=More%20than%20a%20third%20of,38%25%20of%20the%20general%20population.) Along with poor eating habits and lifestyles, the simplest factor of sleep could contribute to weight gain. 
  
 
 *Something to consider before diving in is these are not all the factors that are linked to obesity. 
@@ -139,7 +139,7 @@ plot4 <- ggplot(dat3, aes(x = Sleep_duration, y = CALC)) +
   geom_boxplot() +
   labs(title = "Relationship Between Sleep Duration and Alcohol consumption before bed",
        x = "Sleep Duration (hours)",
-       y = "Caffeine Consumption") +
+       y = "Alcohol Consumption") +
   theme_minimal()
 
 ```
@@ -149,7 +149,7 @@ plot(plot4)
 ```
 
 
-Additionally, participants were queried about their engagement in physical activity several times a week, although the specific activities were not specified. Participants were simply asked to respond with a yes or no. This on paper shows that no physical activity in those tested showed overweight. 
+Additionally, participants were queried about their engagement in physical activity several times a week. Participants were simply asked to respond with a yes or no. This on paper shows that no physical activity in those tested showed overweight. 
 ```{r,echo=FALSE}
 plot5 <- ggplot(dat3, aes(x = WeightTyp, fill = factor(FAF))) +
   geom_bar(position = "dodge", color = "black") +
@@ -164,7 +164,7 @@ plot5 <- ggplot(dat3, aes(x = WeightTyp, fill = factor(FAF))) +
 plot(plot5)
 ```
 
-As we conclude, it is important to note the significant impact of alcohol on sleep patterns. Disturbances in sleep duration and quality can, in turn, influence overall health, potentially contributing to weight gain in certain instances. However, it is essential to recognize that these are just a few of the numerous factors that may influence obesity, underscoring the need for comprehensive testing and analysis 
+As we conclude, it is important to note the significant impact of alcohol on sleep patterns. Disturbances in sleep duration and quality can, in turn, influence overall health, potentially contributing to weight gain in certain instances. However, it is essential to recognize that these are just a few of the numerous factors that may influence obesity, underscoring the need for comprehensive testing and analysis. 
 
 
 
